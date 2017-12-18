@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jared M</title>
+
+    <!--importing boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!--Importing stylesheet & fonts-->
+    <link rel="stylesheet" type="text/css" href="homestyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Pacifico" rel="stylesheet">
+
+    <!--Importing jQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="jquery.parallax.js"></script>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <div class='row'>
+                <div class='col-lg-3'></div>
+                <div class='col-lg-3'>Yellow</div>
+                <div class='col-lg-3'></div>
+                <div class='col-lg-3'></div>
+            </div>
+        </div>
+    </section>
+    <div class="some-class" data-src="header.jpeg" data-pos-x="left" data-parallax>
+        <div class="container">
+            <div class="row nameHeader">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 col-md-12 homeName">
+                    <h2>Hi, I'm <br><span id='name'>Jared Mezzatesta</span><br>Ameteur CSS/HTML/JS Developer</h2>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    </div>
+    <section id="about">
+        <div class="container">
+            yellow
+        </div>
+    </section>
+    <script type="text/javascript" src='homeJS.js'></script>
+    <script type='text/javascript'>
+        var snowflakes = new Snowflakes(body,some-class);
+        snowflakes.create(50);
+    </script>
+</body>
+</html>
