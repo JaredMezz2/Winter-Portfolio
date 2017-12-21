@@ -1,6 +1,19 @@
+body {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+
 .some-class {
-  min-height: 100vh;
   background: transparent;
+}
+
+.firstLax {
+      min-height: 400px;
+}
+
+.secondLax {
+    min-height: 35vh;
 }
 
 #about {
@@ -10,19 +23,20 @@
 
 h1 {
     font-size: 100px;
-    color: white;
+    margin-bottom: 0px;
 }
 
-body {
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: 900;
-    color: white;
+h3 {
+    color: #565656;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
 }
 
 #name {
     font-size: 3.0em;
     font-family: 'Pacifico', cursive;
     text-shadow: 0px 0px 18px rgba(0, 0, 0, 1);
+    color: white;
 }
 
 .row {
@@ -34,5 +48,84 @@ h2 {
 }
 
 .nameHeader {
-    padding-top: 35%;
+    padding-top: 45%;
+    color: white;
+}
+
+.navbar {
+    align-content: center;
+}
+
+/*Div Stylings*/
+.intro {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f2f2f2+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+    min-width: 100%;
+    min-height: 30%;
+}
+
+.portfolio {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f2f2+0,eaeaea+100 */
+    background: rgb(242,242,242); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+    min-width: 100%;
+    min-height: 30%;
+}
+
+.resume {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,d3d3d3+100 */
+    background: rgb(234,234,234); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(211,211,211,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(211,211,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(211,211,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
+    min-width: 100%;
+    min-height: 30%;
+}
+
+.contact {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d3d3d3+0,bababa+100 */
+    background: rgb(211,211,211); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(211,211,211,1) 0%, rgba(186,186,186,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(211,211,211,1) 0%,rgba(186,186,186,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(211,211,211,1) 0%,rgba(186,186,186,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3d3', endColorstr='#bababa',GradientType=0 ); /* IE6-9 */
+    min-width: 100%;
+    min-height: 30%;
+}
+
+/*Parallax Styling*/
+.firstLax {
+    /* The image used */
+    background-image: url("firstLax.jpeg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secondLax {
+    /* The image used */
+    background-image: url("secondLax.jpeg");
+
+    /* Set a specific height */
+    height: 20%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
