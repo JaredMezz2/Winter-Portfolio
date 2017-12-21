@@ -52,8 +52,40 @@ h2 {
     color: white;
 }
 
+.navTrigger {
+    color: #565656;
+}
+
+.navHidden {
+    color: #f9f9f9;
+    padding: 0px 5%;
+}
+
+.arrow {
+    color: #f9f9f9;
+}
+
 .navbar {
-    align-content: center;
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    -webkit-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+    color: #565656;
+}
+
+.navbar-bg {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,f9f9f9+49,ffffff+100&0+0,1+12,1+49,1+89,0+100 */
+    background: -moz-linear-gradient(left, rgba(252,252,252,0) 0%, rgba(251,251,251,1) 12%, rgba(249,249,249,1) 49%, rgba(254,254,254,1) 89%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(252,252,252,0) 0%,rgba(251,251,251,1) 12%,rgba(249,249,249,1) 49%,rgba(254,254,254,1) 89%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(252,252,252,0) 0%,rgba(251,251,251,1) 12%,rgba(249,249,249,1) 49%,rgba(254,254,254,1) 89%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
 }
 
 /*Div Stylings*/
@@ -114,6 +146,8 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    border-bottom: 2px solid #565656;
 }
 
 .secondLax {
@@ -128,4 +162,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    border-top: 2px solid #565656;
+    border-bottom: 2px solid #565656;
 }
