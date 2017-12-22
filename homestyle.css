@@ -52,17 +52,9 @@ h2 {
     color: white;
 }
 
-.navTrigger {
-    color: #565656;
-}
-
 .navHidden {
-    color: #f9f9f9;
-    padding: 0px 5.5%;
-}
-
-.arrow {
-    color: #f9f9f9;
+    display: hidden;
+    padding: 0px 6%;
 }
 
 .navbar {
@@ -76,6 +68,10 @@ h2 {
     color: #565656;
 }
 
+.navbar-brand {
+    margin-right: 0px;
+}
+
 .navbar-bg {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,f9f9f9+49,ffffff+100&0+0,1+12,1+49,1+89,0+100 */
     background: -moz-linear-gradient(left, rgba(252,252,252,0) 0%, rgba(251,251,251,1) 12%, rgba(249,249,249,1) 49%, rgba(254,254,254,1) 89%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
@@ -84,7 +80,6 @@ h2 {
 }
 
 a:hover {
-    color: red;
     cursor: pointer;
 }
 
@@ -148,11 +143,12 @@ a:hover {
     background-size: cover;
 
     border-bottom: 2px solid #565656;
+    color: #f9f9f9;
 }
 
 .secondLax {
     /* The image used */
-    background-image: url("secondLax.jpeg");
+    background-image: url("secondLax.jpg");
 
     /* Set a specific height */
     height: 20%;
