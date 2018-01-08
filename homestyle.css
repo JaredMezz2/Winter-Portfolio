@@ -40,12 +40,17 @@ h3 {
     color: white;
 }
 
+#resume .row {
+    padding-top: 25px;
+}
+
 .row {
     text-align: center;
 }
 
 h2 {
-    font-size: 30.5px
+    font-size: 30.5px;
+    margin-bottom: 0px;
 }
 
 .nameHeader {
@@ -94,6 +99,7 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
     min-width: 100%;
     min-height: 30%;
+    padding-top: 25px;
 }
 
 #resume {
@@ -117,6 +123,7 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
     min-width: 100%;
     min-height: 30%;
+    padding: 25px 0px;
 }
 
 #contact {
@@ -128,6 +135,7 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3d3', endColorstr='#bababa',GradientType=0 ); /* IE6-9 */
     min-width: 100%;
     min-height: 30%;
+    padding: 25px 0px;
 }
 
 /*Parallax Styling*/
@@ -165,14 +173,6 @@ a:hover {
     border-bottom: 2px solid #565656;
 }
 
-#intro .row {
-    padding-top: 25px;
-}
-
-#resume .row {
-    padding-top: 25px;
-}
-
 .pfp {
     max-width: 220px;
     max-height: 220px;
@@ -208,9 +208,80 @@ p {
     background-color: rgba(0, 0, 0, 0.7);
     max-width: 10px;
     padding: 0px;
-
 }
 
 h4 {
     margin-bottom: 0px;
+}
+
+h5 {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.siteView {
+    background-color: black;
+    min-height: 250px;
+    min-width: 30%;
+    padding: 0px 0px;
+    margin: 10px 10px;
+}
+
+.col-md-3 {
+    margin-top: 10px;
+}
+
+.myForm {
+    padding-top: 10px;
+    text-align: left;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    border-bottom: 1px solid black;
+    min-width: 50%;
+    margin-top: 15px;
+}
+
+input:focus {
+    outline: none !important;
+    border:none;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 0px #719ECE;
+}
+
+textarea {
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    border-bottom: 1px solid black;
+    min-width: 50%;
+    margin-top: 15px;
+}
+
+textarea:focus {
+    outline: none !important;
+    border:none;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 0px #719ECE;
+}
+
+.submitButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    min-width: 10%;
+    margin-top: 15px;
+}
+
+.afterButton {
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    border-bottom: 1px solid black;
+    min-width: 50%;
+    margin-top: 15px;
+}
+
+.foot {
+    margin: 5px 0px;
+    background-color: #565656;
 }
