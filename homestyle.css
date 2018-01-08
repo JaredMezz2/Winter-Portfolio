@@ -1,7 +1,7 @@
 body {
     font-family: 'Fjalla One', sans-serif;
     font-weight: 900;
-    color: black;
+    color: #565656;
 }
 
 .some-class {
@@ -30,6 +30,7 @@ h3 {
     color: #565656;
     letter-spacing: 1.3px;
     text-transform: uppercase;
+    margin-bottom:0px;
 }
 
 #name {
@@ -84,7 +85,7 @@ a:hover {
 }
 
 /*Div Stylings*/
-.intro {
+#intro {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f2f2f2+100 */
     background: rgb(255,255,255); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
@@ -95,7 +96,7 @@ a:hover {
     min-height: 30%;
 }
 
-.portfolio {
+#resume {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f2f2+0,eaeaea+100 */
     background: rgb(242,242,242); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
@@ -104,9 +105,10 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
     min-width: 100%;
     min-height: 30%;
+    padding-bottom: 25px;
 }
 
-.resume {
+#portfolio {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,d3d3d3+100 */
     background: rgb(234,234,234); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(211,211,211,1) 100%); /* FF3.6-15 */
@@ -117,7 +119,7 @@ a:hover {
     min-height: 30%;
 }
 
-.contact {
+#contact {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d3d3d3+0,bababa+100 */
     background: rgb(211,211,211); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(211,211,211,1) 0%, rgba(186,186,186,1) 100%); /* FF3.6-15 */
@@ -161,4 +163,54 @@ a:hover {
 
     border-top: 2px solid #565656;
     border-bottom: 2px solid #565656;
+}
+
+#intro .row {
+    padding-top: 25px;
+}
+
+#resume .row {
+    padding-top: 25px;
+}
+
+.pfp {
+    max-width: 220px;
+    max-height: 220px;
+    border: 1px solid black;
+}
+
+.aboutdesc {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.titleHighlight {
+    text-align: left;
+    font-size: 4ex;
+    color: black;
+}
+
+.nameEmph {
+    color: black;
+}
+
+.blurp {
+    text-align: left;
+}
+
+p {
+    padding-left: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.sideBar {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 10px;
+    padding: 0px;
+
+}
+
+h4 {
+    margin-bottom: 0px;
 }
