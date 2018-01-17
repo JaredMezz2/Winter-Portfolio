@@ -54,7 +54,7 @@ h2 {
 }
 
 .nameHeader {
-    padding-top: 45%;
+    padding-top: 37%;
     color: white;
 }
 
@@ -271,6 +271,7 @@ textarea:focus {
     border: 1px solid black;
     min-width: 10%;
     margin-top: 15px;
+    margin-left: 35px;
 }
 
 .afterButton {
@@ -284,4 +285,8 @@ textarea:focus {
 .foot {
     margin: 5px 0px;
     background-color: #565656;
+}
+
+#ymessage {
+    margin-left: 35px;
 }
