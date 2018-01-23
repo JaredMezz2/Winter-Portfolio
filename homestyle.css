@@ -60,7 +60,6 @@ h2 {
 
 .navHidden {
     display: hidden;
-    padding: 0px 6%;
 }
 
 .navbar {
@@ -72,10 +71,6 @@ h2 {
     -moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
     color: #565656;
-}
-
-.navbar-brand {
-    margin-right: 0px;
 }
 
 .navbar-bg {
