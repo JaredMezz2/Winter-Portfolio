@@ -1,134 +1,304 @@
-html {
-    height: 100%;
-}
-
 body {
     font-family: 'Fjalla One', sans-serif;
     font-weight: 900;
-    color: white;
-    background-image: url(https://static.pexels.com/photos/688660/pexels-photo-688660.jpeg);
-    background-size: cover;
-    background-position: center;
+    color: #565656;
 }
 
-.social {
-    text-align: center;
-    letter-spacing: 3px;
-    font-size: 20px;
-    padding-top: 10px;
+.some-class {
+  background: transparent;
 }
 
-.col-md-3 {
-    display: flex;
+.firstLax {
+      min-height: 400px;
 }
 
-.col-md-2 {
-    min-width: 20%;
+.secondLax {
+    min-height: 35vh;
 }
 
-.logo {
-    height: 30px;
-    margin-right: 8px;
+#about {
+    min-height: 100vh;
+    background-color: white;
 }
 
-.homeName {
-    text-align: center;
-    margin-top: 26%;
+h1 {
+    font-size: 100px;
+    margin-bottom: 0px;
 }
 
-h2 {
-    font-size: 30.5px
-}
-
-.sidefade {
-    color: red;
+h3 {
+    color: #565656;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin-bottom:0px;
 }
 
 #name {
     font-size: 3.0em;
     font-family: 'Pacifico', cursive;
     text-shadow: 0px 0px 18px rgba(0, 0, 0, 1);
+    color: white;
 }
 
-.col-lg-3 {
-    min-width: 25%;
+#resume .row {
+    padding-top: 25px;
 }
 
-.navBar {
-    padding-top: 23%;
-    padding-bottom: 20px;
+.row {
     text-align: center;
-    letter-spacing: 3px;
-    font-size: 20px;
 }
 
-/*Button Style*/
-.btn {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 10px 20px;
-	display: inline-block;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+h2 {
+    font-size: 30.5px;
+    margin-bottom: 0px;
 }
 
-.btn:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+.nameHeader {
+    padding-top: 37%;
+    color: white;
 }
 
-.btn-1 {
-	border: 2px solid #fff;
-	color: #fff;
+.navHidden {
+    display: none;
 }
 
-/* Button 1e */
-.btn-1e {
-	overflow: hidden;
+.navbar {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    -webkit-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 13px 0px rgba(0,0,0,0.75);
+    color: #565656;
 }
 
-.btn-1e:after {
-	width: 100%;
-	height: 0;
-	top: 50%;
-	left: 50%;
-	background: #fff;
-	opacity: 0;
-	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-	-ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+.navbar-bg {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,f9f9f9+49,ffffff+100&0+0,1+12,1+49,1+89,0+100 */
+    background: -moz-linear-gradient(left, rgba(252,252,252,0) 0%, rgba(251,251,251,1) 12%, rgba(249,249,249,1) 49%, rgba(254,254,254,1) 89%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(252,252,252,0) 0%,rgba(251,251,251,1) 12%,rgba(249,249,249,1) 49%,rgba(254,254,254,1) 89%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(252,252,252,0) 0%,rgba(251,251,251,1) 12%,rgba(249,249,249,1) 49%,rgba(254,254,254,1) 89%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.btn-1e:hover,
-.btn-1e:active {
-	color: grey;
+a:hover {
+    cursor: pointer;
 }
 
-.btn-1e:hover:after {
-	height: 260%;
-	opacity: 1;
+/*Div Stylings*/
+#intro {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f2f2f2+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+    min-width: 100%;
+    min-height: 30%;
+    padding-top: 25px;
 }
 
-.btn-1e:active:after {
-	height: 400%;
-	opacity: 1;
+#resume {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f2f2+0,eaeaea+100 */
+    background: rgb(242,242,242); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(234,234,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(234,234,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+    min-width: 100%;
+    min-height: 30%;
+    padding-bottom: 25px;
 }
 
-.animsition-overlay-slide {
-    background-color: #f9f9f9;
+#portfolio {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,d3d3d3+100 */
+    background: rgb(234,234,234); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(211,211,211,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(211,211,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(211,211,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
+    min-width: 100%;
+    min-height: 30%;
+    padding: 25px 0px;
+}
+
+#contact {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d3d3d3+0,bababa+100 */
+    background: rgb(211,211,211); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(211,211,211,1) 0%, rgba(186,186,186,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(211,211,211,1) 0%,rgba(186,186,186,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(211,211,211,1) 0%,rgba(186,186,186,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3d3', endColorstr='#bababa',GradientType=0 ); /* IE6-9 */
+    min-width: 100%;
+    min-height: 30%;
+    padding: 25px 0px;
+}
+
+/*Parallax Styling*/
+.firstLax {
+    /* The image used */
+    background-image: url("firstLax.jpeg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-bottom: 2px solid #565656;
+    color: #f9f9f9;
+}
+
+.secondLax {
+    /* The image used */
+    background-image: url("secondLax.jpg");
+
+    /* Set a specific height */
+    height: 20%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-top: 2px solid #565656;
+    border-bottom: 2px solid #565656;
+}
+
+.pfp {
+    max-width: 220px;
+    max-height: 220px;
+    border: 1px solid black;
+}
+
+.aboutdesc {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.titleHighlight {
+    text-align: left;
+    font-size: 4ex;
+    color: black;
+}
+
+.nameEmph {
+    color: black;
+    font-size: 1.5em;
+}
+
+.blurp {
+    text-align: left;
+}
+
+p {
+    padding-left: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.sideBar {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 10px;
+    padding: 0px;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.siteView {
+    background-color: black;
+    min-height: 250px;
+    min-width: 30%;
+    padding: 0px 0px;
+    margin: 10px 10px;
+}
+
+.col-md-3 {
+    margin-top: 10px;
+}
+
+.myForm {
+    padding-top: 10px;
+    text-align: left;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    border-bottom: 1px solid black;
+    min-width: 50%;
+    margin-top: 15px;
+}
+
+input:focus {
+    outline: none !important;
+    border:none;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 0px #719ECE;
+}
+
+textarea {
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    border-bottom: 1px solid black;
+    min-width: 50%;
+    margin-top: 15px;
+}
+
+textarea:focus {
+    outline: none !important;
+    border:none;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 0px #719ECE;
+}
+
+.submitButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    min-width: 10%;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.afterButton {
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    border-bottom: 1px solid black;
+    min-width: 50%;
+    margin-top: 15px;
+}
+
+#ymessage {
+    margin-left: 35px;
+}
+
+h3 {
+    text-align: right;
+}
+
+.col-md-1 {
+    padding-top: 4px;
+}
+
+.navOption {
+    color: #565656;
+    font-size: 18px;
+}
+
+.navOption:hover {
+    color: black;
+}
+
+.fakeIt {
+    color: rgba(0, 0, 0, 0)
 }
