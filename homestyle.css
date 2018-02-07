@@ -175,8 +175,13 @@ a:hover {
 }
 
 .aboutdesc {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social {
     text-align: left;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .titleHighlight {
@@ -187,7 +192,13 @@ a:hover {
 
 .nameEmph {
     color: black;
-    font-size: 1.5em;
+    font-weight: bolder;
+    font-size: 2.0em;
+}
+
+.headerName {
+    color: black;
+    font-size: 1.2em;
 }
 
 .blurp {
@@ -301,4 +312,12 @@ h3 {
 
 .fakeIt {
     color: rgba(0, 0, 0, 0)
+}
+
+.social a {
+    color: #565656;
+}
+
+.social a:hover {
+    color: black;
 }
