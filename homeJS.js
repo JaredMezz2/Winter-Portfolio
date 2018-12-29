@@ -1,18 +1,13 @@
 $('.navTrigger').click(function() {
     if ($('.navTrigger').hasClass('col-md-12')){
-        $(this).addClass('fakeIt');
-        $(this).toggleClass('col-md-12');
-        $(this).toggleClass('col-md-4');
-        $('.navHidden').fadeToggle();
-        $(this).removeClass('fakeIt');
+        $(this).removeClass('col-md-12');
+        $(this).addClass('col-md-4');
+        $('.navHidden').fadeIn();
     } else {
-        $('.navTrigger').toggleClass('nameEmph');
-        $(this).addClass('fakeIt');
-        $('.navHidden').fadeToggle();
-        $(this).toggleClass('col-md-4');
-        $('.navTrigger').toggleClass('col-md-12')
-        $(this).removeClass('fakeIt');
-        $(this).toggleClass('nameEmph');
+        $('.navHidden').fadeOut('slow', function(){
+            $('.navTrigger').removeClass('col-md-4');
+            $('.navTrigger').addClass('col-md-12');
+        });
     }
 });
 
