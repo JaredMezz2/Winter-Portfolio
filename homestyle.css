@@ -50,21 +50,25 @@ h2 {
 }
 
 .nameHeader {
-    padding-top: 25%;
     color: white;
 }
 
 .homeName {
     text-shadow: 0px 0px 11px rgba(0,0,0,0.45);
-}
-
-.centerIt {
-    margin: 0 auto;
-    width: 60%;
+    display: inline-block;
+    height: 100%;
 }
 
 .navHidden {
     display: none;
+}
+
+.vertCenter {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
 }
 
 .navbar {
