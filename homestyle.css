@@ -45,7 +45,7 @@ h3 {
 }
 
 h2 {
-    font-size: 30.5px;
+    font-size: 34px;
     margin-bottom: 0px;
 }
 
@@ -212,7 +212,7 @@ a:hover {
 
 .headerName {
     color: black;
-    font-size: 1.2em;
+    font-size: 1.7em;
 }
 
 .blurp {
@@ -311,13 +311,13 @@ h3 {
     text-align: right;
 }
 
-.col-md-1 {
+.col-sm-1 {
     padding-top: 4px;
 }
 
 .navOption {
     color: #565656;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .navOption:hover {
