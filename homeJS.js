@@ -1,12 +1,12 @@
 $('.navTrigger').click(function() {
-    if ($('.navTrigger').hasClass('col-md-12')){
-        $(this).removeClass('col-md-12');
-        $(this).addClass('col-md-4');
+    if ($('.navTrigger').hasClass('col-sm-12')){
+        $(this).removeClass('col-sm-12');
+        $(this).addClass('col-sm-4');
         $('.navHidden').fadeIn();
     } else {
         $('.navHidden').fadeOut('slow', function(){
-            $('.navTrigger').removeClass('col-md-4');
-            $('.navTrigger').addClass('col-md-12');
+            $('.navTrigger').removeClass('col-sm-4');
+            $('.navTrigger').addClass('col-sm-12');
         });
     }
 });
