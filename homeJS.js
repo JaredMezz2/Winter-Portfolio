@@ -16,3 +16,8 @@ $('.submitButton').click(function() {
     $(this).text("Thanks, Ill get back to you soon!");
     $(this).attr('disabled', true);
 });
+
+$('.siteView').hover(function() {
+    $(this).toggleClass("col-md-3 col-md-4");
+
+});

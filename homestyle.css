@@ -217,7 +217,7 @@ a:hover {
     text-align: left;
 }
 
-p {
+.blurp p {
     padding-left: 40px;
     letter-spacing: 1px;
     margin-bottom: 0px;
@@ -332,4 +332,19 @@ h3 {
 
 .social a:hover {
     color: black;
+}
+
+.btn-group.special {
+    display: flex;
+}
+.special .btn {
+    flex: 1;
+}
+
+.special .btn:hover {
+    cursor: pointer;
+}
+
+.card-img {
+    padding-left: 2%;
 }

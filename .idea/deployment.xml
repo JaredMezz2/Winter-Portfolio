@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" uploadOnCheckin="2505a8d1-cc01-4e60-be60-aa87a1bba99b">
+  <component name="PublishConfigData" serverName="Main" uploadOnCheckin="105dcf5c-aef4-44a5-ada3-8f0b579fcb3f">
     <serverData>
-      <paths name="Web Server">
+      <paths name="Main">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
-          <excludedPaths>
-            <excludedPath path="/var/www/html/example1" />
-          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="Web Server" />
+    <option name="myUploadOnCheckinName" value="Main" />
   </component>
 </project>

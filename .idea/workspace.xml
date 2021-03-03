@@ -4,6 +4,9 @@
     <list default="true" id="c963f941-e81b-4ba2-a6a0-7922d9f9697b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/homestyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,59 +21,78 @@
     <session id="-2097563040">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="5" />
-          <entry key="js" value="1" />
+          <entry key="css" value="1" />
+          <entry key="html" value="9" />
+          <entry key="js" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="5" />
-          <entry key="JavaScript" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="9" />
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="162" />
-          <entry key="txt" value="65" />
+          <entry key="css" value="191" />
+          <entry key="html" value="3061" />
+          <entry key="js" value="451" />
+          <entry key="txt" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="162" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="CSS" value="191" />
+          <entry key="HTML" value="3061" />
+          <entry key="JavaScript" value="451" />
+          <entry key="PLAIN_TEXT" value="187" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homestyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="131" column="15" lean-forward="true" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
+            <state relative-caret-position="1021">
+              <caret line="348" column="19" selection-start-line="348" selection-start-column="19" selection-end-line="348" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;105dcf5c-aef4-44a5-ada3-8f0b579fcb3f&gt;/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-957" />
+            <state relative-caret-position="540">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homeJS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="460">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -102,8 +124,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homestyle.css" />
         <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/homeJS.js" />
+        <option value="$PROJECT_DIR$/homestyle.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -113,11 +137,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="567" />
-    <option name="y" value="23" />
-    <option name="width" value="1113" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="y" value="-778" />
+    <option name="width" value="1080" />
+    <option name="height" value="1892" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -197,7 +221,20 @@
       <workItem from="1518038031815" duration="101000" />
       <workItem from="1518038159772" duration="686000" />
       <workItem from="1518043867275" duration="1413000" />
-      <workItem from="1546054288548" duration="1179000" />
+      <workItem from="1546054288548" duration="1438000" />
+      <workItem from="1546497824891" duration="326000" />
+      <workItem from="1546498258583" duration="235000" />
+      <workItem from="1546808460380" duration="1220000" />
+      <workItem from="1546819810139" duration="920000" />
+      <workItem from="1557179627344" duration="250000" />
+      <workItem from="1558372880893" duration="391000" />
+      <workItem from="1580099274869" duration="646000" />
+      <workItem from="1590771546764" duration="341000" />
+      <workItem from="1591295781829" duration="1413000" />
+      <workItem from="1600281012949" duration="1227000" />
+      <workItem from="1604847573429" duration="439000" />
+      <workItem from="1605395125982" duration="598000" />
+      <workItem from="1614777170016" duration="10861000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned up some styling. Added second footer.">
       <created>1518047776956</created>
@@ -227,23 +264,51 @@
       <option name="project" value="LOCAL" />
       <updated>1546055440169</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testing deployment w/commit">
+      <created>1546055620855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546055620855</updated>
+    </task>
+    <task id="LOCAL-00006" summary="testing deployment w/commit">
+      <created>1546497998790</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546497998790</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Had some folder issues, syncing everything back together.">
+      <created>1546820058192</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546820058192</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated some info">
+      <created>1558373071869</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558373071869</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7531000" />
+    <option name="totallyTimeSpent" value="26657000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="970" extended-state="6" />
+    <frame x="1680" y="-778" width="1080" height="1892" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18803419" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22254336" />
       <window_info id="Structure" order="1" weight="0.24969475" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30278423" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.30177188" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -251,12 +316,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32946634" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="11" visible="true" weight="0.32830626" />
+      <window_info anchor="bottom" id="File Transfer" order="11" visible="true" weight="0.2935035" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32911393" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.12942614" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.21058434" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,47 +335,36 @@
     <MESSAGE value="Fixed navbar overlap issue" />
     <MESSAGE value="Updated Info" />
     <MESSAGE value="renamed to index" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed to index" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/homeJS.js</url>
-          <line>17</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="testing deployment w/commit" />
+    <MESSAGE value="Had some folder issues, syncing everything back together." />
+    <MESSAGE value="Updated some info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated some info" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/homev2.html" />
-    <entry file="file://$PROJECT_DIR$/homestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="52" column="18" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homeJS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="460">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1021">
+          <caret line="348" column="19" selection-start-line="348" selection-start-column="19" selection-end-line="348" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="131" column="15" lean-forward="true" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
+        <state relative-caret-position="540">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
