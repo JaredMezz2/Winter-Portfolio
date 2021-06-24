@@ -341,6 +341,10 @@ h3 {
     flex: 1;
 }
 
+.special a {
+    flex: 1;
+}
+
 .special .btn:hover {
     cursor: pointer;
 }
